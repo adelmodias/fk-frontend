@@ -11,7 +11,9 @@ export function Register() {
                 <img src={logoSvg} alt="FK Social" />
                 <h3>Criar uma conta</h3>
                 <Form>
+                    <input type="text" placeholder="Data de aniversário" required />
                     <input type="text" placeholder="Nome" required />
+                    <input type="text" placeholder="Sobrenome" required />
                     <input type="text" placeholder="Telefone" required />
                     <input type="email" placeholder="E-mail" required />
                     <input type="password" placeholder="Senha" required />
