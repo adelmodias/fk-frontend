@@ -1,4 +1,6 @@
-import { FormContainer, FormWrap, Form, LoginButton } from "./styled";
+import { Link } from "react-router-dom";
+
+import { FormContainer, FormWrap, Form, LoginButton, LinkCreateAccWrap } from "./styled";
 
 import logoSvg from "../../assets/fk-logo.svg";
 
@@ -14,7 +16,11 @@ export function LoginRecovery() {
                     <input type="email" placeholder="Seu E-mail" required />
                 </Form>
 
-                <LoginButton type="submit">Enviar</LoginButton>
+                <LoginButton type="submit">Solicitar nova senha</LoginButton>
+
+                <LinkCreateAccWrap>
+                    <Link to="/">Voltar para o Login</Link>
+                </LinkCreateAccWrap>
             </FormWrap>
         </FormContainer>
     );

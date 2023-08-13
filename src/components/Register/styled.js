@@ -29,11 +29,6 @@ export const FormWrap = styled.div`
     h3 {
         color: var(--text-title);
         text-align: center;
-        margin-bottom: 1rem;
-    }
-
-    p {
-        text-align: center;
         margin-bottom: 1.5rem;
     }
 `;

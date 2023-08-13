@@ -49,7 +49,7 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 600;
   }
 
-  button {
+  button, a {
     cursor: pointer;
   }
 
@@ -59,10 +59,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
     .container {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
 
   /* .react-modal-overlay {
     background: rgba(0, 0, 0, 0.5);

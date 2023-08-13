@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import { FormContainer, FormWrap, Form, LoginButton, LinksWrap } from "./styled";
+import { FormContainer, FormWrap, Form, LoginButton, LinksWrap, LinkCreateAccWrap } from "./styled";
 
 import logoSvg from "../../assets/fk-logo.svg";
 
@@ -23,7 +23,10 @@ export function Login() {
                     <Link to="/recovery-password">Recuperar senha</Link>
                 </LinksWrap>
 
-                <LoginButton type="submit">Login</LoginButton>
+                <LoginButton type="submit">Fazer Login</LoginButton>
+                <LinkCreateAccWrap>
+                    <Link to="/create-account">Criar conta</Link>
+                </LinkCreateAccWrap>
             </FormWrap>
         </FormContainer>
     );

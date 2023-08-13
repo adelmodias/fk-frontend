@@ -97,3 +97,18 @@ export const LinksWrap = styled.div`
         }
     }
 `;
+
+export const LinkCreateAccWrap = styled.div`
+    text-align: center;
+    margin-top: 0.5rem;
+    a {
+        font-size: 14px;
+        color: var(--text-body);
+        text-decoration: none;
+        transition: 0.3s all;
+
+        &:hover {
+            opacity: 0.75;
+        }
+    }
+`;
