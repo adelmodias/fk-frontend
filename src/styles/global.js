@@ -3,7 +3,8 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
   :root {
     /* --background: #f0f2f5; */
-    --background: #f8f9fd;
+    /* --background: #f8f9fd; */
+    --background: #edeef0;
     --red: #e52e4d;
     --blue: #5429cc;
     --green: #33cc95;
@@ -12,8 +13,9 @@ export const GlobalStyle = createGlobalStyle`
 
     --text-title: #363f5f;
     --text-body: #333;
+    --text-small: #818c99;
+    --text-link: #2A5885;
 
-    /* --background: #f0f2f5; */
     --shape: #ffffff;
   }
 
@@ -59,9 +61,9 @@ export const GlobalStyle = createGlobalStyle`
   }
 
     .container {
-        max-width: 1120px;
+        max-width: 1075px;
         margin: 0 auto;
-        padding: 0 1rem;
+        padding: 0 15px;
     }
 
   /* .react-modal-overlay {
